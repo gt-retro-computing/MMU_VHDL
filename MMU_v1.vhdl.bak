@@ -1,0 +1,4 @@
+entity FancyRegister is
+	port (d0, en, clk : in bit;
+				q0 : out bit);
+end FancyRegister;

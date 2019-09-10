@@ -1,0 +1,223 @@
+m255
+K3
+z0
+13
+cModel Technology
+Z0 d/home/codetector/projects/imsai/MMU_VHDL/simulation/qsim
+vFancyRegister
+IcmJXiR62>k=j>Bkbl1`gE3
+VT5NkND[<ebVAe]01?NF980
+R0
+w1568143428
+8MMU_v1.vo
+FMMU_v1.vo
+L0 31
+Z1 OV;L;10.1d;51
+r1
+31
+!s90 -work|work|MMU_v1.vo|
+Z2 o-work work -O0
+n@fancy@register
+!i10b 1
+!s100 42YDdEah9eR4R_H7QBIXe0
+!s85 0
+!s108 1568143428.595943
+!s107 MMU_v1.vo|
+!s101 -O0
+Efancyregister
+Z3 w1568149156
+Z4 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z5 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+Z6 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z7 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+Z8 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z11 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R0
+Z12 8MMU_v1.vho
+Z13 FMMU_v1.vho
+l0
+L79
+V=4oDCGlhBE3ThKVURHaNU3
+!s100 clHUPk4U7b8hU^Fh5NB770
+Z14 OV;C;10.5b;63
+32
+Z15 !s110 1568149157
+!i10b 1
+Z16 !s108 1568149157.000000
+Z17 !s90 -work|work|MMU_v1.vho|
+Z18 !s107 MMU_v1.vho|
+!i113 1
+Z19 o-work work
+Z20 tExplicit 1 CvgOpt 0
+Astructure
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+DEx4 work 13 fancyregister 0 22 =4oDCGlhBE3ThKVURHaNU3
+l171
+L111
+VB[Z7^Q^iTC@o]fC2CXJbG2
+!s100 G;;3n^W56_hm1ORf;VEh43
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R19
+R20
+Efancyregister_vhd_vec_tst
+Z21 w1568149155
+R9
+R10
+R0
+Z22 8RegSim.vwf.vht
+Z23 FRegSim.vwf.vht
+l0
+L31
+Vf]9o5MR9fa0?m[K<kGaT40
+!s100 AODjjofi7T:8lC@eLSlY?1
+R14
+32
+R15
+!i10b 1
+R16
+Z24 !s90 -work|work|RegSim.vwf.vht|
+Z25 !s107 RegSim.vwf.vht|
+!i113 1
+R19
+R20
+Afancyregister_arch
+R9
+R10
+Z26 DEx4 work 25 fancyregister_vhd_vec_tst 0 22 f]9o5MR9fa0?m[K<kGaT40
+l50
+L33
+V?2aFFGZc3gRHPQ_i1HFjm2
+!s100 XTkgZ2XE<nAL7QQ4nJi0Z2
+R14
+32
+R15
+!i10b 1
+R16
+R24
+R25
+!i113 1
+R19
+R20
+vFancyRegister_vlg_check_tst
+!i10b 1
+!s100 j1@eWiDa8Tn_?IMN513<z2
+Im6WZjndZlYd:]8NQ<ZzJm0
+V71GLG>5FeUQhE:96<7XSO1
+R0
+Z27 w1568143426
+Z28 8MMU_v1.vt
+Z29 FMMU_v1.vt
+L0 61
+R1
+r1
+!s85 0
+31
+Z30 !s108 1568143428.609728
+Z31 !s107 MMU_v1.vt|
+Z32 !s90 -work|work|MMU_v1.vt|
+!s101 -O0
+R2
+n@fancy@register_vlg_check_tst
+vFancyRegister_vlg_sample_tst
+!i10b 1
+!s100 hZ^n2F;G;I3<JaJ<Z<[W70
+ITl:[cIP>MaOEAj4aY`A`I1
+VON<?Tc16h_amVoN@AL0Fl0
+R0
+R27
+R28
+R29
+L0 29
+R1
+r1
+!s85 0
+31
+R30
+R31
+R32
+!s101 -O0
+R2
+n@fancy@register_vlg_sample_tst
+vFancyRegister_vlg_vec_tst
+!i10b 1
+!s100 ;9QgCIV>1efmX]clmLJ1;0
+Ign;5Wdf=FLEV<@1_JeF4P1
+VK9DHAX1SRo6TK73`]KRW^2
+R0
+R27
+R28
+R29
+L0 157
+R1
+r1
+!s85 0
+31
+R30
+R31
+R32
+!s101 -O0
+R2
+n@fancy@register_vlg_vec_tst
+Ehard_block
+R3
+R6
+R4
+R8
+R9
+R10
+R5
+R0
+R12
+R13
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R19
+R20
+Astructure
+R6
+R4
+R8
+R9
+R10
+R5
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R14
+32
+R15
+!i10b 1
+R16
+R17
+R18
+!i113 1
+R19
+R20
