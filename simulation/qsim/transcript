@@ -1,7 +1,7 @@
 # do MMU_v1.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:59:17 on Sep 10,2019
+# Start time: 16:50:34 on Sep 11,2019
 # vcom -work work MMU_v1.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -14,26 +14,26 @@
 # -- Compiling architecture structure of hard_block
 # -- Loading package dffeas_pack
 # -- Loading package altera_primitives_components
-# -- Compiling entity FancyRegister
-# -- Compiling architecture structure of FancyRegister
-# End time: 16:59:17 on Sep 10,2019, Elapsed time: 0:00:00
+# -- Compiling entity F2
+# -- Compiling architecture structure of F2
+# End time: 16:50:34 on Sep 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:59:17 on Sep 10,2019
-# vcom -work work RegSim.vwf.vht 
+# Start time: 16:50:34 on Sep 11,2019
+# vcom -work work F-mul.vwf.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity FancyRegister_vhd_vec_tst
-# -- Compiling architecture FancyRegister_arch of FancyRegister_vhd_vec_tst
-# End time: 16:59:17 on Sep 10,2019, Elapsed time: 0:00:00
+# -- Compiling entity F2_vhd_vec_tst
+# -- Compiling architecture F2_arch of F2_vhd_vec_tst
+# End time: 16:50:34 on Sep 11,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -novopt -c -t 1ps -sdfmax FancyRegister_vhd_vec_tst/i1=MMU_v1_vhd.sdo -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.FancyRegister_vhd_vec_tst 
-# Start time: 16:59:17 on Sep 10,2019
+# vsim -novopt -c -t 1ps -sdfmax F2_vhd_vec_tst/i1=MMU_v1_vhd.sdo -L cycloneive -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.F2_vhd_vec_tst 
+# Start time: 16:50:34 on Sep 11,2019
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.fancyregister_vhd_vec_tst(fancyregister_arch)
+# Loading work.f2_vhd_vec_tst(f2_arch)
 # SDF 10.5b Compiler 2016.10 Oct  5 2016
 # Loading ieee.vital_timing(body)
 # Loading ieee.vital_primitives(body)
@@ -41,7 +41,7 @@
 # Loading altera.altera_primitives_components
 # Loading cycloneive.cycloneive_atom_pack(body)
 # Loading cycloneive.cycloneive_components
-# Loading work.fancyregister(structure)
+# Loading work.f2(structure)
 # Loading work.hard_block(structure)
 # Loading ieee.std_logic_arith(body)
 # Loading cycloneive.cycloneive_io_obuf(arch)
@@ -52,8 +52,10 @@
 # Loading altera.dffeas(vital_dffeas)
 # Loading instances from MMU_v1_vhd.sdo
 # Loading timing data from MMU_v1_vhd.sdo
+# ** Warning: Design size of 11546 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
 # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
-#    Time: 0 ps  Iteration: 0  Instance: /fancyregister_vhd_vec_tst File: RegSim.vwf.vht
+#    Time: 0 ps  Iteration: 0  Instance: /f2_vhd_vec_tst File: F-mul.vwf.vht
 # after#35
-# End time: 16:59:17 on Sep 10,2019, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0, Suppressed Warnings: 8
+# End time: 16:50:36 on Sep 11,2019, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 1, Suppressed Warnings: 8
