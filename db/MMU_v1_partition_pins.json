@@ -12,6 +12,18 @@
 					"strict" : false
 				},
 				{
+					"name" : "rOUT",
+					"strict" : false
+				},
+				{
+					"name" : "dbg1",
+					"strict" : false
+				},
+				{
+					"name" : "dbg2",
+					"strict" : false
+				},
+				{
 					"name" : "fi",
 					"strict" : false
 				}
