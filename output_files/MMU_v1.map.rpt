@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MMU_v1
-Thu Sep 12 11:16:25 2019
+Thu Sep 12 17:04:17 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,13 +42,13 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Sep 12 11:16:25 2019       ;
+; Analysis & Synthesis Status        ; Successful - Thu Sep 12 17:04:17 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; MMU_v1                                      ;
 ; Top-level Entity Name              ; F2                                          ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 54                                          ;
-;     Total combinational functions  ; 54                                          ;
+; Total logic elements               ; 55                                          ;
+;     Total combinational functions  ; 55                                          ;
 ;     Dedicated logic registers      ; 28                                          ;
 ; Total registers                    ; 28                                          ;
 ; Total pins                         ; 8                                           ;
@@ -158,8 +158,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
-;     Processors 3-6         ;   0.0%      ;
+;     Processors 2-6         ;   0.0%      ;
 +----------------------------+-------------+
 
 
@@ -177,16 +176,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Estimated Total logic elements              ; 54    ;
+; Estimated Total logic elements              ; 55    ;
 ;                                             ;       ;
-; Total combinational functions               ; 54    ;
+; Total combinational functions               ; 55    ;
 ; Logic element usage by number of LUT inputs ;       ;
 ;     -- 4 input functions                    ; 25    ;
-;     -- 3 input functions                    ; 6     ;
+;     -- 3 input functions                    ; 7     ;
 ;     -- <=2 input functions                  ; 23    ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 37    ;
+;     -- normal mode                          ; 38    ;
 ;     -- arithmetic mode                      ; 17    ;
 ;                                             ;       ;
 ; Total registers                             ; 28    ;
@@ -199,8 +198,8 @@ refer to the applicable agreement for further details.
 ;                                             ;       ;
 ; Maximum fan-out node                        ; clk   ;
 ; Maximum fan-out                             ; 14    ;
-; Total fan-out                               ; 231   ;
-; Average fan-out                             ; 2.36  ;
+; Total fan-out                               ; 235   ;
+; Average fan-out                             ; 2.37  ;
 +---------------------------------------------+-------+
 
 
@@ -209,7 +208,7 @@ refer to the applicable agreement for further details.
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
-; |F2                        ; 54 (54)             ; 28 (28)                   ; 0           ; 0            ; 0       ; 0         ; 8    ; 0            ; |F2                 ; F2          ; work         ;
+; |F2                        ; 55 (55)             ; 28 (28)                   ; 0           ; 0            ; 0       ; 0         ; 8    ; 0            ; |F2                 ; F2          ; work         ;
 +----------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -237,18 +236,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; boundary_port         ; 8                           ;
 ; cycloneiii_ff         ; 28                          ;
 ;     plain             ; 28                          ;
-; cycloneiii_lcell_comb ; 55                          ;
+; cycloneiii_lcell_comb ; 56                          ;
 ;     arith             ; 17                          ;
 ;         2 data inputs ; 17                          ;
-;     normal            ; 38                          ;
+;     normal            ; 39                          ;
 ;         0 data inputs ; 1                           ;
 ;         1 data inputs ; 2                           ;
 ;         2 data inputs ; 4                           ;
-;         3 data inputs ; 6                           ;
+;         3 data inputs ; 7                           ;
 ;         4 data inputs ; 25                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 2.33                        ;
+; Average LUT depth     ; 2.31                        ;
 +-----------------------+-----------------------------+
 
 
@@ -267,7 +266,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Sep 12 11:16:12 2019
+    Info: Processing started: Thu Sep 12 17:04:03 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MMU_v1 -c MMU_v1
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -277,19 +276,18 @@ Info (12021): Found 2 design units, including 1 entities, in source file Registe
     Info (12023): Found entity 1: F2 File: /home/codetector/projects/imsai/MMU_VHDL/Register.vhdl Line: 5
 Info (12127): Elaborating entity "F2" for the top level hierarchy
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "gOUT" is stuck at GND File: /home/codetector/projects/imsai/MMU_VHDL/Register.vhdl Line: 7
     Warning (13410): Pin "bOUT" is stuck at GND File: /home/codetector/projects/imsai/MMU_VHDL/Register.vhdl Line: 7
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 62 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 63 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 1 input pins
     Info (21059): Implemented 7 output pins
-    Info (21061): Implemented 54 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 4 warnings
-    Info: Peak virtual memory: 1007 megabytes
-    Info: Processing ended: Thu Sep 12 11:16:25 2019
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:24
+    Info (21061): Implemented 55 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 985 megabytes
+    Info: Processing ended: Thu Sep 12 17:04:17 2019
+    Info: Elapsed time: 00:00:14
+    Info: Total CPU time (on all processors): 00:00:27
 
 

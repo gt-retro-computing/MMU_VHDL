@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Thu Sep 12 11:16:25 2019
+Analysis & Synthesis Status : Successful - Thu Sep 12 17:04:17 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : MMU_v1
 Top-level Entity Name : F2
 Family : Cyclone IV E
-Total logic elements : 54
-    Total combinational functions : 54
+Total logic elements : 55
+    Total combinational functions : 55
     Dedicated logic registers : 28
 Total registers : 28
 Total pins : 8

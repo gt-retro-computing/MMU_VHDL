@@ -3,27 +3,27 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 85C Model Setup 'clk'
-Slack : -3.170
-TNS   : -18.192
+Slack : -3.269
+TNS   : -18.684
 
 Type  : Slow 1200mV 85C Model Setup 'vclk'
-Slack : -2.117
-TNS   : -19.616
+Slack : -2.152
+TNS   : -19.840
 
 Type  : Slow 1200mV 85C Model Setup 'fi'
-Slack : -1.667
-TNS   : -2.709
-
-Type  : Slow 1200mV 85C Model Hold 'clk'
-Slack : 0.455
-TNS   : 0.000
+Slack : -1.632
+TNS   : -3.010
 
 Type  : Slow 1200mV 85C Model Hold 'fi'
-Slack : 0.455
+Slack : 0.454
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Hold 'vclk'
 Slack : 0.455
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.456
 TNS   : 0.000
 
 Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fi'
@@ -39,27 +39,27 @@ Slack : -1.487
 TNS   : -17.844
 
 Type  : Slow 1200mV 0C Model Setup 'clk'
-Slack : -2.928
-TNS   : -15.610
+Slack : -3.036
+TNS   : -16.123
 
 Type  : Slow 1200mV 0C Model Setup 'vclk'
-Slack : -1.863
-TNS   : -17.065
+Slack : -1.923
+TNS   : -17.102
 
 Type  : Slow 1200mV 0C Model Setup 'fi'
-Slack : -1.513
-TNS   : -2.153
+Slack : -1.498
+TNS   : -2.485
 
 Type  : Slow 1200mV 0C Model Hold 'clk'
-Slack : 0.403
+Slack : 0.404
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'fi'
-Slack : 0.403
+Slack : 0.404
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Hold 'vclk'
-Slack : 0.403
+Slack : 0.404
 TNS   : 0.000
 
 Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fi'
@@ -75,23 +75,23 @@ Slack : -1.487
 TNS   : -17.844
 
 Type  : Fast 1200mV 0C Model Setup 'clk'
-Slack : -0.767
-TNS   : -1.727
+Slack : -0.813
+TNS   : -2.076
 
 Type  : Fast 1200mV 0C Model Setup 'fi'
-Slack : -0.509
-TNS   : -0.509
+Slack : -0.448
+TNS   : -0.448
 
 Type  : Fast 1200mV 0C Model Setup 'vclk'
-Slack : -0.364
-TNS   : -2.151
-
-Type  : Fast 1200mV 0C Model Hold 'clk'
-Slack : 0.187
-TNS   : 0.000
+Slack : -0.314
+TNS   : -1.966
 
 Type  : Fast 1200mV 0C Model Hold 'vclk'
 Slack : 0.187
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.188
 TNS   : 0.000
 
 Type  : Fast 1200mV 0C Model Hold 'fi'

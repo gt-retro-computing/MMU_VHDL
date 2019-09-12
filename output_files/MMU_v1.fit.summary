@@ -1,12 +1,12 @@
-Fitter Status : Successful - Thu Sep 12 11:16:31 2019
+Fitter Status : Successful - Thu Sep 12 17:04:22 2019
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : MMU_v1
 Top-level Entity Name : F2
 Family : Cyclone IV E
 Device : EP4CE15F23C8
 Timing Models : Final
-Total logic elements : 56 / 15,408 ( < 1 % )
-    Total combinational functions : 54 / 15,408 ( < 1 % )
+Total logic elements : 57 / 15,408 ( < 1 % )
+    Total combinational functions : 55 / 15,408 ( < 1 % )
     Dedicated logic registers : 28 / 15,408 ( < 1 % )
 Total registers : 28
 Total pins : 8 / 344 ( 2 % )

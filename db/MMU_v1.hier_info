@@ -3,12 +3,12 @@ fi => counter[0].CLK
 fi => counter[1].CLK
 fi => counter[2].CLK
 fi => clk.CLK
-out1 << hsync.DB_MAX_OUTPUT_PORT_TYPE
-out2 << vsync.DB_MAX_OUTPUT_PORT_TYPE
-rOUT << rOUT.DB_MAX_OUTPUT_PORT_TYPE
-gOUT << <GND>
-bOUT << <GND>
-dbg1 << hdisplay.DB_MAX_OUTPUT_PORT_TYPE
-dbg2 << clk.DB_MAX_OUTPUT_PORT_TYPE
+out1 <= hsync.DB_MAX_OUTPUT_PORT_TYPE
+out2 <= vsync.DB_MAX_OUTPUT_PORT_TYPE
+rOUT <= rOUT.DB_MAX_OUTPUT_PORT_TYPE
+gOUT <= gOUT.DB_MAX_OUTPUT_PORT_TYPE
+bOUT <= <GND>
+dbg1 <= hdisplay.DB_MAX_OUTPUT_PORT_TYPE
+dbg2 <= clk.DB_MAX_OUTPUT_PORT_TYPE
 
 
